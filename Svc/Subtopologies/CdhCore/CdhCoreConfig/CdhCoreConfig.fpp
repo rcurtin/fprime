@@ -11,9 +11,9 @@ module CdhCoreConfig {
     
 
     module StackSizes {
-        constant cmdDisp     = 64 * 1024
-        constant events      = 64 * 1024
-        constant tlmSend     = 64 * 1024
+        constant cmdDisp     = 128 * 1024
+        constant events      = 128 * 1024
+        constant tlmSend     = 128 * 1024
     }
 
     module Priorities {
