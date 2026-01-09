@@ -11,10 +11,10 @@ module DataProductsConfig {
     
 
     module StackSizes {
-        constant dpCat    = 64 * 1024
-        constant dpMgr  = 64 * 1024
-        constant dpWriter   = 64 * 1024
-        constant dpBufferManager   = 64 * 1024
+        constant dpCat    = 128 * 1024
+        constant dpMgr  = 128 * 1024
+        constant dpWriter   = 128 * 1024
+        constant dpBufferManager   = 128 * 1024
     }
 
     module Priorities {
